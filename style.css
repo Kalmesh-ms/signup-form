@@ -9,11 +9,21 @@ body, html{
     
 }
 
-.background ,.sigup-form {
-    flex: 1;
-}
-
 img{
     height: 100vh;
     width: 40vw;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.head{
+    text-wrap: wrap;
+    padding: 150px 130px 20px 50px;  
+    background-image: linear-gradient(to bottom, purple , pink);
+    box-sizing: border-box;
 }
