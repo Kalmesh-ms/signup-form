@@ -8,17 +8,52 @@
 </head>
 <body>
     <div class="container">
-        <div class="background"><img src="background.jpg" alt="background-image"></div>
+        <div class="hero">
+            <img src="assets/background.jpg" alt="background-image">
+            <div class="imageText"><img src="assets/odin-lined.png" alt="OdinImage">Anything</div>
+        </div>
 
             <div class="content">
                 <div class="head">
-                    <h2>This an online service providing your Daily feed for healthy lifestyle & habits.</h2>
+                    <h2>Welcome to The Odin World</h2>
                     <h3>You know <em>you want to</em></h3>
                 </div>
                 <div class="signup-form">
-                    <form action="#" method="post">
-                        
+                    <form action="#" method="post" id="contact">
+                        <h3 >Let's do this!</h3>
+
+                        <div class="contact">
+                            <div class="name">
+                                <label for="first-name">NAME</label>
+                                <input type="text" placeholder="Thor" id="first-name" name="first_name" required>
+                            </div>
+                            <div class="email">
+                                <label for="email">EMAIL</label>
+                                <input type="email" placeholder="you@example.com" id="email" name="email_address" required>
+                            </div>
+                            <div class="pass">
+                                <label for="pass">PASSWORD</label>
+                                <input type="text" id="pass" name="password">
+                            </div>
+                            <div class="lastName">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" placeholder="Odinson" id="last-name" name="last_name" required>
+                            </div>
+                            
+                            <div class="phone">
+                                <label for="phone">PHONE</label>
+                                <input type="tel" placeholder="9876 6789 10" id="phone" name="phone_number">
+                            </div>
+                            <div class="confirmPass">
+                                <label for="confirmPass">CONFIRM PASSWORD</label>
+                                <input type="text" id="confirmPass" >
+                            </div>
+                        </div>
                     </form>
+                    <div class="login">
+                        <button type="submit" form="contact">Create Account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
                 </div>
             
         </div>
